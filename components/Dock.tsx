@@ -23,23 +23,18 @@ export function Dock() {
     },
 
     {
-      title: 'X',
-      icon: <IconBrandX className='h-full w-full text-neutral-300' />,
-      href: 'https://x.com/shubhamsp1602',
-    },
-    {
       title: 'GitHub',
       icon: <IconBrandGithub className='h-full w-full text-neutral-300' />,
-      href: 'https://github.com/shubhampatil1602',
+      href: 'https://github.com/ma9av',
     },
     {
       title: 'Linkedin',
       icon: <IconBrandLinkedin className='h-full w-full text-neutral-300' />,
-      href: 'https://www.linkedin.com/in/shubhmpatil/',
+      href: 'https://www.linkedin.com/in/mpweb/',
     },
   ];
   return (
-    <div className='flex items-center justify-center w-full fixed bottom-0 left-0'>
+    <div className='flex items-center justify-center w-full fixed left-0 bottom-3'>
       <div className='absolute -bottom-10 w-full h-20 bg-black blur-[60px] z-[-1]'></div>
       <FloatingDock items={links} />
     </div>

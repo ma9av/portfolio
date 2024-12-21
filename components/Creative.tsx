@@ -7,9 +7,9 @@ const Creative = () => {
     <Container>
       <div className='my-10'>
         <More
-          title='Creative Coder'
-          subTitle='I like building things'
-          description='I’m all about building cool things! Whether it’s creating sleek web apps, designing smooth user interfaces, or diving into exciting new tech, I’ve enjoyed tackling challenging projects that push my skills further. I thrive on delivering innovative solutions that are both functional and fun. Let’s build something awesome together and make the process just as enjoyable as the result!'
+          title= 'Efficient Engineer'
+          subTitle='I love building software'
+          description="I have always been fascinated by the world of tech, at first the entire internet, softwares, games everything felt like magic to me. Thus, I decided to decode the magic and never looked back. I am in love with the process of engineering software which fulfills real world problems and always thinking about some new ideas to work on and some interesting people to work with, who are as passionate about the craft as myself."
         />
       </div>
     </Container>

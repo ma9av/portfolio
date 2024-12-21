@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 
+
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
   variable: '--font-geist-sans',
@@ -14,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Shubham Patil',
+  title: 'Manav Panchal',
   description:
     'I&apos;m Shubham Patil, a full-stack developer from India, with a passion for building things and exploring new technologies creating functional and user-friendly web experiences',
 };
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang='en' className='!scroll-smooth'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#1B1B1F] text-white`}
       >
         {children}
       </body>
