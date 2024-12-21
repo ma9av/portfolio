@@ -17,7 +17,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: 'Manav Panchal',
   description:
-    'I&apos;m Shubham Patil, a full-stack developer from India, with a passion for building things and exploring new technologies creating functional and user-friendly web experiences',
+    'I&apos;m Manav Panchal, a full-stack developer from India, with a passion for building things and exploring new technologies creating functional and user-friendly web experiences',
 };
 
 export default function RootLayout({
