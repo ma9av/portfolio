@@ -54,10 +54,21 @@ export const data = {
     },
     {
       title: 'Know Your Air',
-      desc: '',
+      desc: ' Completed my 6 week internship in IBM SkillsBuild in Front end Web Development, where I built a React web app named ‘Know Your Air’, which displays the Air Quality Index (AQI) and details of the compounds and their concentration. ',
       img: '/aqi.png',
       website: 'https://ibm-frontend-delta.vercel.app/',
       code: 'https://github.com/ma9av/ibm_frontend',
+      tech: [
+        'React.js',
+        'Tailwind CSS',
+      ],
+    },
+    {
+      title: 'colAIr - AI Color palette generator',
+      desc: 'AI color palette generator for your design needs. Enter how you feel and it will do the job', 
+      img: '/colair.png',
+      website: 'https://col-air.vercel.app/',
+      code: 'https://github.com/ma9av/colAIr-AI-color-palette-generator',
       tech: [
         'React.js',
         'Tailwind CSS',
